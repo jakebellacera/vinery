@@ -37,6 +37,10 @@ If Vine rejects your credentials, Vinery will raise `InvalidCredentialsError`. I
 
 To learn more about how to work with `Vinery::API`, [browse the source code](lib/vinery/api.rb).
 
+## Disclaimer
+
+I am not employed by Vine.co, nor have they blessed this project.
+
 ## Contributing
 
 1. Fork it
