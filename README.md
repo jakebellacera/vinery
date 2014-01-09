@@ -29,7 +29,7 @@ vinery = Vinery::API.new(vine_username,vine_password)
 
 If Vine rejects your credentials, Vinery will raise `InvalidCredentialsError`. If no errors occur, then you have successfully authenticated with Vine and you're ready to go!
 
-To learn more about how to work with `Vinery::API`, [browse the source code](blob/master/lib/vinery/api.rb).
+To learn more about how to work with `Vinery::API`, [browse the source code](lib/vinery/api.rb).
 
 ## Contributing
 
