@@ -21,11 +21,22 @@ module Vinery
       @video_url = data["videoUrl"]
     end
 
+    # Public: Converts the Record into a Hash.
+    # 
+    # Returns the String representation of the Record.
+    def to_h
+      h = {}
+      attributes.each do |attribute|
+        h[attribute] = send(attribute)
+      end
+      h
+    end
+
     # Public: Converts the Record into JSON.
     # 
     # Returns the String raw JSON data of the record.
     def to_json(*a)
-      @raw.to_json(*a)
+      to_h.to_json(*a)
     end
 
     # Public: Produces a human-readable representation of the Record.
