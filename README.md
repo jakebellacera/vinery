@@ -18,7 +18,14 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Vine's API requires _all_ requests to be authenticated (via a session cookie) with a valid Vine username and password. Vinery will authenticate you upon initialization.
+
+To begin, `require` Vinery in your ruby script and then create a new instance of `Vinery::API` by passing your Vine username and password as parameters.
+
+```ruby
+require 'vinery'
+vinery = Vinery::API.new(vine_username,vine_password)
+```
 
 ## Contributing
 
