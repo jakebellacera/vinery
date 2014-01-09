@@ -26,7 +26,7 @@ module Vinery
     # Returns the String representation of the Record.
     def to_h
       h = {}
-      attributes.each do |attribute|
+      instance_variables.map { |iv| iv.to_s.gsub(/^@/, "") }.each do |attribute|
         h[attribute] = send(attribute)
       end
       h
