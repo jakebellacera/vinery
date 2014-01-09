@@ -2,6 +2,12 @@
 
 A Ruby interface for [Vine](http://vine.co).
 
+***
+
+**NOTE:** Vinery currently only has one API method at the moment: `tagged`. This interface is very incomplete right now, so please contribute!
+
+***
+
 ## Installation
 
 Add this line to your application's Gemfile:
