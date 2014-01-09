@@ -1,6 +1,6 @@
 # Vinery
 
-TODO: Write a gem description
+A Ruby interface for [Vine](http://vine.co).
 
 ## Installation
 

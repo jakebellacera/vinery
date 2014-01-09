@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Vinery::VERSION
   spec.authors       = ["Jake Bellacera"]
   spec.email         = ["jakeb@eleveninc.com"]
-  spec.description   = "Ruby interface for Vine."
-  spec.summary       = "Ruby interface for Vine."
-  spec.homepage      = ""
+  spec.description   = "A Ruby interface for Vine."
+  spec.summary       = "A Ruby interface for Vine."
+  spec.homepage      = "http://github.com/jakebellacera/vinery"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
