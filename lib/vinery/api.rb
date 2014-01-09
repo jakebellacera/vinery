@@ -6,7 +6,6 @@ module Vinery
   # requests to be authenticated when accessing the API.
   # 
   # Examples
-  # 
   #   vine = Vine.new("username", "password")
   #   funny_vines = vine.tagged("funny")
   class API
@@ -19,7 +18,6 @@ module Vinery
     # password - The String Vine password.
     # 
     # Examples
-    # 
     #   Vine.new("username", "password")
     #   # => #<Vine:0x007fe052036670>
     # 
@@ -36,9 +34,7 @@ module Vinery
     #         :size - The Integer number of results to display (default: 20).
     # 
     # Examples
-    # 
     #   tagged("funny")
-    #   
     #   tagged("funny", { page: 2, size: 10 })
     # 
     # Returns a Hash of Vines.

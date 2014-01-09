@@ -56,7 +56,6 @@ module Vinery
     #              hyphen ("-").
     # 
     # Examples
-    # 
     #   record.embed_tag
     #   # => '<iframe src=".../embed/simple"></iframe>'
     #   
