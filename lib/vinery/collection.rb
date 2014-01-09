@@ -3,8 +3,11 @@ module Vinery
   # Array.
   # 
   # Examples
+  #   
   #   collection = Collection.new
+  #   
   #   collection.add(record1)
+  #   
   #   collection << record2
   #   
   #   collection = Collection.new([record1, record2, record3])
@@ -14,6 +17,7 @@ module Vinery
     # record - The Record to be appended to the end of the Collection.
     # 
     # Examples
+    #   
     #   collection.push(record)
     # 
     # Returns the array of Records.

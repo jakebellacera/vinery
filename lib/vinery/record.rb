@@ -7,7 +7,7 @@ module Vinery
     # Public: Initializes a new Record instance.
     # 
     # data - A Hash that contains the posting's attributes. Typically this is
-    #        a record from a parsed JSON API call response.
+    #        a record from a parsed JSON response.
     # 
     # Returns the new Vine instance.
     def initialize(data)
@@ -56,6 +56,7 @@ module Vinery
     #              hyphen ("-").
     # 
     # Examples
+    #   
     #   record.embed_tag
     #   # => '<iframe src=".../embed/simple"></iframe>'
     #   
