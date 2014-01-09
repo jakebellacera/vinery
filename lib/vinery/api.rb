@@ -1,4 +1,5 @@
 require "httparty"
+require "vinery/errors/invalid_credentials"
 
 module Vinery
   # Public: The unofficial interface for the Vine API. Vine requires all
@@ -68,6 +69,8 @@ module Vinery
       })
 
       body = parse_json(response.body)
+
+      raise Vinery::InvalidCredentialsError unless body["success"]
 
       @auth = {
         user_id: body["data"]["userId"],

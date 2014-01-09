@@ -27,6 +27,8 @@ require 'vinery'
 vinery = Vinery::API.new(vine_username,vine_password)
 ```
 
+If Vine rejects your credentials, Vinery will raise `InvalidCredentialsError`. If no errors occur, then you have successfully authenticated with Vine and you're ready to go!
+
 ## Contributing
 
 1. Fork it
